@@ -1,0 +1,50 @@
+<!--  
+
+checkout Page
+
+pagina de pago
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+
+    <h1>Checkout</h1>
+
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="imagen">
+    </section>
+
+    <section>
+        <h2>Payment Information</h2>
+
+        <form id="form" method="post">
+        <label for="card-name">
+         <span aria-hidden="true">*</span>Card name</label>
+        <input type="text" id="card-name" name="card-name" required>
+        
+      
+        <label for="card-number">
+        <span aria-hidden="true">*</span>Card number</label>
+        <input type="text" id="card-number" name="card-number" aria-describedby="card-number-help" required>
+        <p id="card-number-help">number</p>
+        <span id="card-number-help">Ingresa 16 dígitos sin espacios.</span>
+
+        <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+
+</body>
+
+</html>
+
+
+
